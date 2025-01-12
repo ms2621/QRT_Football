@@ -55,6 +55,10 @@ The pipeline generates predictions for match outcomes and goal differences. The 
   - Test Accuracy: <value>
   - Test Log Loss: <value>
 
+##Other Techniques
+Techniques such as RFE for feature selection could not be employed due to lack of local RAM.
+PCA, autoencoders, ridge and lasso regression were also tried and tested but experienced a significant drop in performance particularly with PCA. Condition number was always <30 when elastic net (Lasso + Ridge) was used, so I determined the drop in explanation of variance was not worth the added stability.
+
 ## Acknowledgments
 This project leverages:
 - **XGBoost** for gradient-boosted decision trees.
