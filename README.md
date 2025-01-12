@@ -44,7 +44,7 @@ This project predicts football match outcomes using player statistics, team-leve
 
 ## Usage
 - **Run QRT_raw.py**:
-  ```
+
 
 ## Results
 The pipeline generates predictions for match outcomes and goal differences. The final outputs are saved in the `results/` directory. Key metrics include:
