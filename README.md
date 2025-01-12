@@ -13,7 +13,7 @@ This project predicts football match outcomes using player statistics, team-leve
   - Aggregated player statistics by position (e.g., defender, midfielder, attacker).
   - Imputed missing values and scaled numerical features.
   - Deleted columns with 100% missing values and rows with 40% or more missing data.
-  - Generated position-based summary statistics (mean, sum, max, std).
+  - Generated position-based summary statistics (mean, sum, max, std), simulating starting lineup (only players with 45 mins played per game on average).
 
 - **Dimensionality Reduction**:
   - Utilized Elastic Net for feature selection to reduce dimensionality.
