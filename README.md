@@ -43,40 +43,7 @@ This project predicts football match outcomes using player statistics, team-leve
 3. Run the scripts from the `scripts/` folder to execute various stages of the pipeline.
 
 ## Usage
-- **Data Preprocessing**:
-  Run the data processing module to clean and preprocess raw inputs:
-  ```bash
-  python scripts/run_data_processing.py
-  ```
-
-- **Feature Engineering**:
-  Generate features for modeling:
-  ```bash
-  python scripts/run_feature_engineering.py
-  ```
-
-- **Dimensionality Reduction**:
-  Perform Elastic Net-based feature selection:
-  ```bash
-  python scripts/run_dimensionality_reduction.py
-  ```
-
-- **Model Training**:
-  Train regression and classification models:
-  ```bash
-  python scripts/run_model_training.py
-  ```
-
-- **Hyperparameter Tuning**:
-  Optimize model hyperparameters with Optuna:
-  ```bash
-  python scripts/run_hyperparameter_tuning.py
-  ```
-
-- **Prediction**:
-  Generate predictions for test data:
-  ```bash
-  python scripts/run_prediction.py
+- **Run QRT_raw.py**:
   ```
 
 ## Results
