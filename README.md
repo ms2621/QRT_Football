@@ -1,5 +1,5 @@
 # QRT_Football
-Combination of XGB regression and classification to predict Win Draw or Loss of home team in football games. Achieves classification accuracy of 0.4890 on unseen-test data.
+Combination of XGB regression and classification to predict Win Draw or Loss of home team in football games. Achieves classification accuracy of 0.4899 on unseen-test data.
 Data can be found at: https://challengedata.ens.fr/participants/challenges/143/
 
 # Football Match Outcome Prediction
